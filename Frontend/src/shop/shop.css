@@ -1,0 +1,35 @@
+.open-sidebar {
+    position: absolute;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: 92vh;
+}
+
+
+
+.toggle {
+    width: 40px;
+    height: 60px;
+    border-radius: 0 5px 5px 0 ;
+    background-color: #333;
+}
+
+.toggle.active {
+    color: red;
+}
+
+
+/* .active {
+    width: 200px;
+    background-color: #333;
+    margin-top: -25px;
+} */
+
+
+.list {
+    display: flex;
+    width: 100%;
+    
+    
+}

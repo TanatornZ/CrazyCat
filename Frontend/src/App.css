@@ -1,0 +1,227 @@
+/* button {
+    font-size: calc(10px + 2vmin);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Itim", cursive;
+}
+
+* {
+  font-family: "Itim", cursive;
+}
+
+.box {
+  height: 20rem;
+  background-color: rgb(236, 230, 230);
+}
+
+.content {
+  min-height: 47vh;
+  margin-bottom: 100px;
+}
+
+.article {
+  height: 500px;
+  background-color: black;
+}
+
+.sub-article {
+  background-color: black;
+  height: 240px;
+}
+
+.input-box {
+  background-color: rgb(246, 244, 133);
+}
+
+.input-question {
+  height: 150px;
+}
+
+.slide-pic {
+  height: 400px;
+  object-fit: center;
+}
+
+.Nav {
+  background-color: #ffe353;
+}
+
+.heart {
+  font-size: 25px;
+  color: #ffe353;
+}
+
+.button-auth {
+  background-color: #ff855e;
+}
+
+.cart-list {
+  width: 60vw;
+  background-color: #fefaef;
+}
+
+.cart-bar {
+  width: 30vw;
+  height: 100%;
+  background-color: #fefaef;
+}
+
+.payment-select {
+  width: 80vw;
+}
+
+.bar-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.address-list {
+  background-color: #f6e9c3;
+  
+}
+
+.doc {
+  width: 300px;
+  position: relative;
+}
+
+.doc-ele {
+  width: 300px;
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: 0.4s ease;
+}
+
+.doc:hover .doc-ele {
+  opacity: 0.3;
+}
+.doc:hover .doc-title {
+  opacity: 1;
+}
+
+.doc-title {
+  /* position: absolute;
+    top: 50%;
+    opacity: 0;
+    right: 42%; */
+
+  color: #333;
+  transition: all 0.4s ease;
+}
+
+.user-question {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* background-color: #fff; */
+  /* border: 1px solid #333; */
+}
+
+.form-question {
+  background-color: #fffaed;
+}
+
+.question-post {
+  background-color: #fffaed;
+}
+
+.question-img {
+    object-fit: contain;
+    width: 40%;
+    background-color: #fffaed;
+
+    height: 200px;
+}
+
+.question-text {
+    width: 60%;
+}
+
+
+.question-comment {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.hastag {
+    background-color: #fffaed;
+    max-height: 600px;
+    
+}
+
+.form-text {
+  width: 630px;
+}
+
+.form-content {
+  height: 150px;
+}
+
+.cart-list-img {
+  width: 100px;
+  object-fit:contain;
+  height: 100px;
+}
+
+
+.payment-box {
+  /* width: 100%;
+  
+  background-color: #fff; */
+}
+
+.answer-img {
+  width: 100px;
+  height: 100px;
+}
+
+.answer-user-image {
+  width: 50px;
+  height: 50px;
+}
+
+
+.upload-slip {
+  width: 100px;
+  margin-left: 20px;
+}
+
+
+.slip-img {
+  object-fit: cover
+}
+
+
+#upload-question-img {
+   opacity: 0;
+   position: absolute;
+   z-index: -1;
+}
+
+.form-img {
+    background-image: url('https://static.thenounproject.com/png/1156518-200.png');
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    cursor: pointer;
+    background-size: cover;
+
+}
+
+
+.profile-upload {
+
+  width: 150px ;
+  height: 150px ;
+  border-radius: 50%;
+}

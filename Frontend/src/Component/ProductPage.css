@@ -1,0 +1,49 @@
+.main-img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.sub-img {
+    width: 200px;
+    height: 120px;
+object-fit: contain;
+}
+
+.input {
+    width: 80px;
+    height: 30px;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.properties {
+    display: none;
+}
+
+.properties.active {
+    display: block;
+}
+
+.how-to-use {
+    display: none;
+}
+
+.how-to-use.active {
+    display: block;
+}
+
+.menu {
+    cursor: pointer;
+
+}
+
+.menu.use {
+   border-top: 3px solid #333;
+}

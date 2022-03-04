@@ -1,0 +1,46 @@
+.button {
+    border-radius: 50%;
+    align-self: center;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+.list {
+    display: flex;
+    width: 100%;
+    max-width: 1150px;
+    height: 100%;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    margin-right: 20px;
+    list-style: none;
+    transition: all 0.3s;
+}
+
+
+/* .card {
+    width: 300px;
+
+} */
+
+/* .img {
+    height: 250px;
+    object-fit: contain;
+   
+} */
+
+img {
+    object-fit: center;
+}
+
+/* Profile */
+

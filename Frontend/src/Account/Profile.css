@@ -1,0 +1,27 @@
+.profile_bar {
+    width: 400px; 
+    background-color: #FEFAEF;
+    height: 350px;
+    margin-right: 30px;
+}
+
+li {
+    list-style-type: none;
+    /* margin-top: 2rem;*/
+    padding-top: 1rem; 
+}
+
+p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.in {
+    width: 100%;
+    background-color:#FEFAEF;
+    height: 100%;
+    /* min-height: 400px; */
+    padding: 2rem;
+}
+
